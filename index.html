@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+          <img src="./Images/ZILVA.png" alt="Logo" class="logo" />
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+              ☰
+          </button>
+          <nav class="nav-bar">
+              <ul class="nav-links">
+                  <li><a href="#">Home Page</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Upcoming Movies</a></li>
+                  <li><a href="#">Cinema Food Stall</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Queries and FAQs</a></li>
+                  <li><a href="#">Book Your Tickets</a></li>
+              </ul>
+          </nav>
+      </div>
+      <nav class="mobile-nav" id="primary-navigation">
+          <ul>
+              <li><a href="#">Home Page</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Upcoming Movies</a></li>
+              <li><a href="#">Cinema Food Stall</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Queries and FAQs</a></li>
+              <li><a href="#">Book Your Tickets</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+
+  <main>
+    <section id="now-showing" class="movie-section">
+      <h2>Now Showing</h2>
+      <div class="movie-grid">
+          <div class="movie-card movie-card-1">
+              <img src="./Images/ns1.jpeg" alt="Movie 1">
+              <h3>Moana 2</h3>
+              <p>Price: Rs 2300</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-2">
+              <img src="./Images/ns2.png" alt="Movie 2">
+              <h3>Bangla</h3>
+              <p>Price: Rs 1250</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-3">
+              <img src="./Images/ns4.jpg" alt="Movie 2">
+              <h3>Quantimania</h3>
+              <p>Price: Rs 1650</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-4">
+              <img src="./Images/ns5.jpeg" alt="Movie 2">
+              <h3>Wicked</h3>
+              <p>Price: Rs 1400</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-5">
+              <img src="./Images/ns6.jpeg" alt="Movie 2">
+              <h3>Nelum Kuluna</h3>
+              <p>Price: Rs 1500</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-6">
+              <img src="./Images/ns7.jpg" alt="Movie 2">
+              <h3>US</h3>
+              <p>Price: RS 600</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+      </div>
+    </section>
+    
+    <br><br>
+
+    <section id="upcoming-movies" class="movie-section">
+      <h2>Upcoming Movies</h2>
+      <div class="movie-grid">
+          <div class="movie-card movie-card-7">
+              <img src="./Images/um1.jpg" alt="Upcoming Movie 1">
+              <h3>Minecraft Movie</h3>
+              <p>Price: Rs 2150</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-8">
+              <img src="./Images/um2.jpeg" alt="Upcoming Movie 1">
+              <h3>Elio</h3>
+              <p>Price: Rs 1250</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-9">
+              <img src="./Images/um3.jpg" alt="Upcoming Movie 1">
+              <h3>Black Panther</h3>
+              <p>Price: Rs 1580</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-10">
+              <img src="./Images/um4.jpeg" alt="Upcoming Movie 1">
+              <h3>Mufasa</h3>
+              <p>Price: Rs 1000</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-11">
+              <img src="./Images/um5.jpg" alt="Upcoming Movie 1">
+              <h3>Avatar</h3>
+              <p>Price: Rs 2250</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+          <div class="movie-card movie-card-12">
+              <img src="./Images/um6.jpg" alt="Upcoming Movie 1">
+              <h3>Moonlight</h3>
+              <p>Price: Rs 1050</p>
+              <input type="number" value="0">
+              <button>Add to Cart</button>
+          </div>
+      </div>
+  </section>
+
+  <section id="premium-screenings" class="movie-section">
+    <h2>Premium Screenings</h2>
+    <div class="movie-grid"> 
+        <div class="movie-card movie-card movie-card-13">
+            <img src="./Images/ps1.jpg" alt="Premium Movie 1">
+            <h3>Red One</h3>
+            <p>Price: Rs 7000</p>
+            <input type="number" value="0">
+            <button>Add to Cart</button>
+        </div>
+        <div class="movie-card movie-card movie-card-14">
+            <img src="./Images/ps2.jpg" alt="Premium Movie 1">
+            <h3>Day One</h3>
+            <p>Price: Rs 1234</p>
+            <input type="number" value="0">
+            <button>Add to Cart</button>
+        </div>
+        <div class="movie-card movie-card-15">
+            <img src="./Images/ps3.jpg" alt="Premium Movie 1">
+            <h3>Premium</h3>
+            <p>Price: Rs 2900</p>
+            <input type="number" value="0">
+            <button>Add to Cart</button>
+        </div>
+        <div class="movie-card">
+            <img src="./Images/ps4.jpg" alt="Premium Movie 1">
+            <h3>Twisters</h3>
+            <p>Price: Rs 4200</p>
+            <input type="number" value="0">
+            <button>Add to Cart</button>
+        </div>
+        <div class="movie-card">
+            <img src="./Images/ps5.jpg" alt="Premium Movie 1">
+            <h3>LA LA Land</h3>
+            <p>Price: Rs 3000</p>
+            <input type="number" value="0">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section id="3d-imax" class="movie-section">
+  <h2>3D/IMAX</h2>
+  <div class="movie-grid"> 
+      <div class="movie-card movie-card-18">
+          <img src="./Images/3i1.jpg" alt="Premium Movie 1">
+          <h3>Spiderman</h3>
+          <p>Price: Rs 2500</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class=" movie-card movie-card-19">
+          <img src="./Images/3i2.avif" alt="Premium Movie 1">
+          <h3>Gajaman</h3>
+          <p>Price: Rs 2305</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class="movie-card movie-card-20">
+          <img src="./Images/3i3.jpg" alt="Premium Movie 1">
+          <h3>Dragon</h3>
+          <p>Price: Rs 4500</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class="movie-card movie-card-21">
+          <img src="./Images/3i4.jpg" alt="Premium Movie 1">
+          <h3>Tiron</h3>
+          <p>Price: Rs 2000</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class="movie-card movie-card-22">
+          <img src="./Images/3i5.jpeg" alt="Premium Movie 1">
+          <h3>T Rex</h3>
+          <p>Price: Rs 2400</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+  </div>
+  
+</section>
+
+<section id="discount-offers" class="movie-section">
+  <h2>Discount Offers</h2>
+  <div class="movie-grid"> 
+      <div class="movie-card movie-card-23">
+          <img src="./Images/do1.jpg" alt="Premium Movie 1">
+          <h3>Borderlands</h3>
+          <p>Price: Rs 1530</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class=" movie-card movie-card-24">
+          <img src="./Images/do2.jpeg" alt="Premium Movie 1">
+          <h3>Gods Of The Deep</h3>
+          <p>Price: Rs 2450</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class="movie-card movie-card-25">
+          <img src="./Images/do3.jpg" alt="Premium Movie 1">
+          <h3>The Fog</h3>
+          <p>Price: Rs 1205</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+      <div class="movie-card movie-card-25">
+          <img src="./Images/do4.jpg" alt="Premium Movie 1">
+          <h3>Troll 2</h3>
+          <p>Price: Rs 1500</p>
+          <input type="number" value="0">
+          <button>Add to Cart</button>
+      </div>
+ 
+  </div>
+</section>
+
+    <section class="cart">
+        <h2>Selected Tickets</h2>
+        <div class="table-wrapper">
+          <table id="cartTable">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Movie</th>
+                <th>Seats</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4" style="text-align: right;"><strong>Total:</strong></td>
+                <td id="totalPrice"><strong>$0</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+        <button onclick="saveAsFavourite()">Save as Favourite</button>
+        <button onclick="applyFavourite()">Apply Favourite</button>
+      </section>
+      
+      
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>

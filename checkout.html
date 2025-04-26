@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="checkout.css" />
+</head>
+
+
+<main>
+  <section >
+      <h2>Your Order Summary</h2>
+      <table id="checkoutSummary">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+       
+    </table>
+  </section>
+
+    <h3>Enter Your Details</h3>
+    <div class="checkout-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="seats" placeholder="Seat Preferences (e.g., A1, A2)" required />
+      <select id="payment">
+        <option value="">Select Payment Method</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="upi">UPI</option>
+        <option value="paypal">PayPal</option>
+      </select>
+      <button onclick="completePayment()">Pay</button>
+    </div>
+
+    <div class="thank-you" id="thankYouMessage"></div>
+  </div>
+
+  <script src="checkout.js"></script>
+</body>
+</html>
